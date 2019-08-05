@@ -1,0 +1,10 @@
+ORIGIN IS (600,300);
+SCALE IS (50,50);
+FOR T FROM 0 t 2*PI STEP PI/100 DRAW(COS(T),SIN(T));
+FOR T FROM 0 TO 2*PI STEP PI/100 DRAW(COS(T),SIN(T));
+SCALE IS (100,100);
+FOR T FROM 0 TO 2*PI STEP PI/200 DRAW(COS(T),SIN(T));
+SCALE IS (10,10);
+for t from 0 to 20 step 0.01 draw(t,-(t**2));
+for t from 0 to 20 step 0.01 draw(-t,-(t**2));
+for t from 0 to 2 step 0.01 draw(t**2,t);
